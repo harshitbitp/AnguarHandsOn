@@ -6,6 +6,6 @@ Use ng serve on command line to view the working of application.
 Note: In Edit-Employee, there is search by name functionality. Test the functionality by giving these names:- John, Jumbo, Jhonny.
 Thanks!
 
-Regards
+
 Harshit Anand
 
