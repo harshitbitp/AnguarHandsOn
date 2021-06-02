@@ -10,10 +10,10 @@ export class EmployeeService {
 
   employeeList: Employee[] = [
     {id : 1, name : 'John', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
-    {id : 2, name : 'Johnny', salary : 20000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
-    {id : 3, name : 'Jenna', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
-    {id : 4, name : 'Jamela', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
-    {id : 5, name : 'Jumbo', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
+    {id : 2, name : 'Harry', salary : 20000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
+    {id : 3, name : 'Mike', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
+    {id : 4, name : 'Mohan', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
+    {id : 5, name : 'Sunny', salary : 10000, permanent : true, dept: { department_id: 1, department_name: "Payroll" }, skill: [{id: 1, name : 'HTML'},{id: 2, name : 'CSS'},{id:3, name : 'JAVASCRIPT'}], dateOfBirth : new Date('12/31/2000') },
   ];
 
   getAllEmployees() : Employee[]{
