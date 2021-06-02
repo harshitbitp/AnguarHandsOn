@@ -19,16 +19,7 @@ describe('QuantityIncrementComponent', () => {
     .compileComponents();
   });
 
-  /*beforeEach(() => {
-    fixture = TestBed.createComponent(QuantityIncrementComponent);
-    component = fixture.componentInstance;
-    debugElement = fixture.debugElement;
-    let clickMeButton = debugElement.nativeElement.querySelector('#clickMe');
-    clickMeButton.click();
-    fixture.detectChanges();
-    expect(debugElement.nativeElement.querySelector('#simpleClick').textContent).toEqual(component.msg);
-  });
-*/
+  
   it('should create', () => {
     expect(component).toBeTruthy();
   });
