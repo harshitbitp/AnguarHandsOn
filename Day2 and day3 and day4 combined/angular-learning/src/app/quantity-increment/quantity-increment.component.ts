@@ -8,13 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class QuantityIncrementComponent implements OnInit {
 
   constructor() { }
-/*
-   msg = "";
 
-  onClick(){
-    this.msg = "Click me button clicked!";
-  }
-*/
   public quantity = 0;
   onClickInc(){
     this.quantity += 1;
