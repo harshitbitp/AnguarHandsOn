@@ -16,8 +16,7 @@
         <input type="text" name="department" class="d-none" formControlName="set_department_name">
         <div formArrayName="skills">
             <h3>Skills</h3><br>
-            <div *ngFor="let sk of skills.controls; let i=index">
-              <!-- The repeated alias template -->
+            <div *ngFor="let sk of skills.controls; let i=index">              
               <label>
                 Skill:&nbsp;
                 <input type="text" [formControlName]="i">
