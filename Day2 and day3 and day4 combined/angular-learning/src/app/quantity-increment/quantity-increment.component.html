@@ -1,5 +1,9 @@
 <p>Model Binding</p>
 <button id="increment" (click)="onClickDec()">-</button>&nbsp;
-<input type="text" [(ngModel)]="quantity" id="quantity" name="quantity">&nbsp;
+<input type="text" [(ngModel)]="quantity" id="quantity" name="quantity" #res>&nbsp;
+
 <button id="decrement" (click)="onClickInc()">+</button>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{res.value}}
+
 <p></p>
