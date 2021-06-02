@@ -1,5 +1,5 @@
 <br>
-<h2>Login</h2>
+<h2><span style="text-align: left; font-family:Kaushan Script; ">Login </span> </h2>
 <form #loginForm="ngForm" (ngSubmit)="login()"> 
 <label for="name"><b>Username</b></label><br>
 <input type="text" id="name" name="name" [class.is-invalid] = "name.invalid && name.touched" required minlength="2" maxlength="10" [(ngModel)]="Username" #name="ngModel"><br>
